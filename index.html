@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Branden Patten | Portfolio | Fledgling Web Developer</title>
+
+    <!-- JS librarys  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <!-- CSS styles  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Coda+Caption:800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid" id="header-container">
+        <div class="row" id="header-row">
+            <div class="col-sm-12" id="header-col">
+                <div>
+                    <h2 id="header-name">Branden Patten</h2>
+                </div>
+                <div id="nav-links">
+                    <span>[</span>
+                    <a class="nav-item" data-show="#about-me-row" href="#">Who I Am</a>
+                    <span>] [</span>
+                    <a class="nav-item" data-show="#projects-row" href="#">What I've Done</a>
+                    <span>] [</span>
+                    <a class="nav-item" data-show="#contact-row" href="#">Social</a>
+                    <span>]</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container" id="body-container">
+        <!-- about me  -->
+        <div class="row show-hide" id="about-me-row">
+            <div class="col-sm-12 body-element" id="about-me">
+
+                <div class="row">
+                    <div class="col-sm-12" id="about-me-title">
+                        <h2 class="element-title">About Me:</h2>
+                    </div>
+                </div>
+                <img class="m-1" id="profile-picture" src="./assets/images/Profile-Picture.jpg"
+                    alt="Branden Patten's Profile-Picture.jpg">
+                <h4><strong>Hi, I'm Branden, an aspiring Web Dev from South West Florida!</strong></h4>
+                <h5><strong>Some of my strengths so far are jQuery, Firebase, Node, API calls using Ajax and Axios, and
+                        Bootstrap.</strong></h3>
+                    <p>I'm a dedicated learner, I will pour countless hours into a project until I understand it inside
+                        and
+                        out. As my parent's said to me when growing up, "Never stop learning!" </p>
+                    <p>The majority of my work experience has been in the service industry. Web development seemed like
+                        an
+                        amazing oppourtunity to escape, and I am enthusiastic to continue growing in this field. So far,
+                        I'm
+                        only a fledgling, but if I keep working hard at a problem, I know my work will shine like
+                        none-other.</p>
+                        <p>I am excited to show my passion for coding, and will continue growing as long as I pursue it.
+                            As long as you have your goal in mind, your target focus will ensure success. Remember your 'Why'.
+                        </p>
+
+            </div>
+        </div>
+        <!-- about me  -->
+        <!-- projects -->
+        <div class="row show-hide" id="projects-row">
+            <div class="col-sm-12 body-element">
+                <div class="row">
+                    <div class="col-sm-12" id="projects-title">
+                        <h3 class="element-title">What I've Done:</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" id="projects-content">
+                        <div class="row">
+                            <div class="col-sm-4 project" id="employee-scheduler">
+                                <a href="https://github.com/alexschu90/Employee-Scheduler"><h3 class="project-title">Employee Scheduler</h3></a>
+                                <img class="project-image" src="./assets/images/employee.PNG"
+                                    alt="employee-scheduler image">
+                            </div>
+                            <div class="col-sm-4 project" id="crystal-collector">
+                                <a href="https://github.com/pattenbranden/Crystal-Collector"><h3 class="project-title">Crystal Collector</h3></a>
+                                <img class="project-image" src="./assets/images/crystal.png"
+                                    alt="crystal-collector image">
+                            </div>
+                            <div class="col-sm-4 project" id="giphy-animal-search">
+                                <a href="https://github.com/pattenbranden/giphy-animal-search"><h3 class="project-title">Giphy Search</h3></a>
+                                <img class="project-image" src="./assets/images/giphy.PNG"
+                                    alt="giphy-animal-search image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- projects -->
+    <!-- contact form  -->
+    <div class="row show-hide" id="contact-row">
+        <div class="col-sm-12 body-element">
+            <div class="row">
+                <div class="col-sm-12" id="contact-title">
+                    <h3 class="element-title">Reach me:</h3>
+                </div>
+            </div>
+            <!-- <form id="contact-form">
+                Name:
+                <br>
+                <input type="text" id="name" name="Name" placeholder=" John Smith">
+                <br> Email:
+                <br>
+                <input type="text" id="email" name="Email" placeholder=" example@gmail.com">
+                <br> Message:
+                <br>
+                <input type="text" id="message" name="Message">
+                <br>
+                <input type="submit" value="Submit">
+            </form> -->
+            <div id="profile-links">
+                <span>[</span>
+                <a href="https://github.com/pattenbranden">My Github Account</a>
+                <span>] <br> [</span>
+                <a href="https://www.linkedin.com/in/branden-patten/">My Linkedin Profile</a>
+                <span>] <br> [</span>
+                <a href="#">My Résumé</a>
+                <span>]</span>
+                <br>
+                <span>Phone: 239-699-2087</span>
+                <br>
+                <span>Email: Patten.Branden@gmail.com</span>
+            </div>
+        </div>
+    </div>
+    <!-- contact form  -->
+
+    </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div>
+            <div class="row" id="footer-row">
+                <div class="col-sm-12" id="footer-col">
+                    <p>Copyright</p>
+                </div>
+            </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="assets/javascript/config.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

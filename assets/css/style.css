@@ -1,0 +1,124 @@
+body {
+    background-image: url("../images/swirl_pattern.png");
+}
+#profile-picture {
+    width: 20%;
+    float: left;
+}
+#nav-links {
+    float: right;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    font-family: 'Barlow', sans-serif;
+}
+
+#header-name {
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    font-family: 'Coda Caption', sans-serif;
+    position: relative;
+    bottom: 0px;
+    border: 3px groove gold ;
+}
+#header-container{
+    height: 10%;
+    border-bottom: 2px groove blueviolet;
+
+}
+#header-row {
+    background-color: white;
+}
+/* #header-col{
+    width: 100%;
+
+} */
+.body-element {
+    margin-top: 1%;
+    background-color: white;
+    border: 15px solid gold ;
+    border-radius: 15px 50px 30px;
+}
+#about-me-title, #projects-title, #contact-title {
+    border-bottom: 2px groove blueviolet;
+    margin-bottom: 1%;    
+}
+.element-title{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+    float: left;
+    padding: 10px;
+    margin-top: 1%;
+    border: 3px groove gold ;
+    border-radius: 5px 50px 50px;
+}
+#about-me {
+    font-family: 'Barlow', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    line-height: 2em;
+}
+#profile-links{
+    font-weight: bolder;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 2%;
+}
+footer {
+    margin-top: 5%;
+    padding: 0%;
+    height: 4%;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    border-top: 2px groove blueviolet;
+    background-color: white;
+}
+#footer-row {
+    margin: 0;
+}
+.project{
+    display: inline;
+    text-align: center;
+}
+.project-image{
+    width: 300px;
+    border: 5px groove blueviolet ;
+}
+#projects-content{
+    margin-bottom: 20px;
+}
+.project-title{
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    background-color: blueviolet;
+    color: white;
+    border: 3px groove gold ;
+
+}
+
+@media only screen and (max-width:910px){
+    #nav-links{
+        float: none;
+        font-size: smaller;
+        display: block;
+        /* justify-self: flex-end; */
+    }
+    
+    #header-name {
+        float: none;
+        display: block;
+        
+    /* justify-content: start; */
+    }
+    #header-row{
+        justify-content: start;
+        align-items: center;
+    }
+}
