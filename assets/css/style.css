@@ -14,8 +14,7 @@ body {
     bottom: 0%;
     right: 5%;
     font-family: 'Barlow', sans-serif;
-    
-  text-shadow: 1px 1px;
+    text-shadow: 1px 1px black;
 }
 
 #header-name {
