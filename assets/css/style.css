@@ -52,8 +52,8 @@ body {
     text-shadow: 3px 3px black;
     box-shadow: 5px 5px 10px grey;
 }
-.show-hide{
-    margin-bottom: 10px;
+#body-container{
+    margin-bottom: 20px;
 }
 #about-me-title, #projects-title, #contact-title {
     border-bottom: 2px groove blueviolet;
