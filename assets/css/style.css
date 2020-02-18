@@ -4,6 +4,9 @@ body {
 #profile-picture {
     width: 20%;
     float: left;
+    border: 3px solid gold ;
+    margin: 50px;
+
 }
 #nav-links {
     float: right;
@@ -11,6 +14,8 @@ body {
     bottom: 0%;
     right: 5%;
     font-family: 'Barlow', sans-serif;
+    
+  text-shadow: 1px 1px;
 }
 
 #header-name {
@@ -24,6 +29,7 @@ body {
     position: relative;
     bottom: 0px;
     border: 3px groove gold ;
+    text-shadow: 3px 3px black;
 }
 #header-container{
     height: 10%;
@@ -56,6 +62,7 @@ body {
     margin-top: 1%;
     border: 3px groove gold ;
     border-radius: 5px 50px 50px;
+    text-shadow: 3px 3px black;
 }
 #about-me {
     font-family: 'Barlow', sans-serif;
@@ -95,11 +102,13 @@ footer {
 }
 .project-title{
     position: relative;
+    font-style: italic;
     top: 150px;
     z-index: 1;
     background-color: blueviolet;
     color: white;
     border: 3px groove gold ;
+    text-shadow: 3px 3px black;
 
 }
 
@@ -120,5 +129,11 @@ footer {
     #header-row{
         justify-content: start;
         align-items: center;
+    }
+    .body-element {
+        margin-top: 1%;
+        background-color: white;
+        border: 3px solid gold ;
+        border-radius: 15px 50px 30px;
     }
 }
