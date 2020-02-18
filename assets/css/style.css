@@ -117,12 +117,18 @@ footer {
         float: none;
         font-size: smaller;
         display: block;
+
         /* justify-self: flex-end; */
+    }
+   a {
+        color: white;
+        
     }
     
     #header-name {
         float: none;
         display: block;
+        padding-bottom: 12px;
         
     /* justify-content: start; */
     }
