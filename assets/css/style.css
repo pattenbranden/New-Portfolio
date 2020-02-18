@@ -126,7 +126,7 @@ footer {
 
         /* justify-self: flex-end; */
     }
-   a {
+   #nav-links > a {
         color: white;
         
     }
