@@ -131,7 +131,8 @@ footer {
         align-items: center;
     }
     .body-element {
-        margin-top: 1%;
+        /* margin-top: 1%; */
+        margin: 2%;
         background-color: white;
         border: 3px solid gold ;
         border-radius: 15px 50px 30px;
