@@ -5,7 +5,7 @@ body {
     width: 20%;
     float: left;
     border: 3px solid gold ;
-    margin: 50px;
+    box-shadow: 3px 3px 5px grey;
 
 }
 #nav-links {
@@ -47,6 +47,7 @@ body {
     background-color: white;
     border: 15px solid gold ;
     border-radius: 15px 50px 30px;
+    box-shadow: 10px 10px 5px grey;
 }
 #about-me-title, #projects-title, #contact-title {
     border-bottom: 2px groove blueviolet;
@@ -62,12 +63,16 @@ body {
     border: 3px groove gold ;
     border-radius: 5px 50px 50px;
     text-shadow: 3px 3px black;
+    box-shadow: 5px 5px 10px grey;
 }
 #about-me {
     font-family: 'Barlow', sans-serif;
     font-size: large;
     font-weight: bolder;
     line-height: 2em;
+}
+#bio-text{
+    margin-left: 10px;
 }
 #profile-links{
     font-weight: bolder;
@@ -108,6 +113,8 @@ footer {
     color: white;
     border: 3px groove gold ;
     text-shadow: 3px 3px black;
+    
+    box-shadow: 10px 10px 10px grey;
 
 }
 
